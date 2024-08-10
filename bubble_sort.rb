@@ -6,7 +6,7 @@ class BubbleSort
         if arr[i]>arr[i+1]
           temp = arr[i]
           arr[i] = arr[i+1]
-          arr[i+1] = temp
+          arr[i+1] = temporary
         end
       end
       unsorted = unsorted - 1
@@ -15,3 +15,5 @@ class BubbleSort
     return arr
   end
 end
+
+# blah blah blah changes
